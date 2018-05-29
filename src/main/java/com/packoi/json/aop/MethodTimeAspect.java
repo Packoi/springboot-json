@@ -23,7 +23,7 @@ public class MethodTimeAspect {
 		}
 	}
 
-	@Pointcut("execution(public * cn.com.jrj.m..*(..))")
+	@Pointcut("execution(public * com.packoi.json..*(..))")
 	public void profileMethod() {
 	}
 

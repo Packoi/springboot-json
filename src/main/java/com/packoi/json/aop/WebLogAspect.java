@@ -22,7 +22,7 @@ import java.util.Arrays;
 @Slf4j
 public class WebLogAspect {
 
-	@Pointcut("execution(public * cn.com.jrj.m.controller..*.*(..))")
+	@Pointcut("execution(public * com.packoi.json.controller..*.*(..))")
 	public void webLog() {
 	}
 
