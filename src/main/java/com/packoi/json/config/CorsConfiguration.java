@@ -66,7 +66,6 @@ public class CorsConfiguration {
                         .allowedOrigins("*")
                         .allowedHeaders("*")
                         .allowedMethods(HttpMethod.GET.name(), HttpMethod.HEAD.name(), HttpMethod.POST.name(), HttpMethod.PUT.name(), HttpMethod.DELETE.name());
-//                        .allowedMethods("GET", "POST", "HEAD", "PUT", "DELETE");
             }
 
         };
